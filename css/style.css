@@ -1,0 +1,28 @@
+.cls-1{fill:#d0903d;
+}
+
+.cls-2{fill:#f0dede;
+}
+
+.cls-3{fill:#fcf0c0;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(8px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.pupil{
+    animation: move 1s infinite;
+}
+
+#smily:hover .pupil{
+    animation-play-state: paused
+}
